@@ -29,6 +29,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Estimated Effort**: 16 story points
 
 **Team Activities**:
+
 - UI/UX Engineer: Design system, wireframes, prototypes (10 SP)
 - Tech Lead: Infrastructure setup, architecture documentation (6 SP)
 
@@ -41,13 +42,13 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Scope**:
 
 ### Sprint 1 (Weeks 1-2, 40 SP)
+
 - **User Authentication** (18 SP)
   - User registration with email verification
   - Login/logout with JWT tokens
   - Password hashing (bcrypt)
   - Basic profile viewing
   - Password reset via email
-  
 - **Product Catalog Foundation** (22 SP)
   - Product domain model and database schema
   - Product categories (hierarchical structure)
@@ -58,6 +59,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Category navigation UI
 
 ### Sprint 2 (Weeks 3-4, 40 SP)
+
 - **Shopping Cart** (20 SP)
   - Cart domain model and persistence
   - Add to cart, update quantity, remove item
@@ -65,13 +67,11 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Cart UI component (sidebar/modal)
   - Cart persistence (logged-in users)
   - Cart summary (item count, total price)
-  
 - **Basic Search** (12 SP)
   - Keyword search using PostgreSQL full-text
   - Search API endpoint
   - Search UI with autocomplete
   - Search results page
-  
 - **Responsive Design** (8 SP)
   - Mobile-optimized layouts for key pages
   - Responsive navigation menu
@@ -79,6 +79,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - CSS breakpoints for tablet and mobile
 
 ### Sprint 3 (Weeks 5-6, 40 SP)
+
 - **Checkout & Payment** (25 SP)
   - Checkout flow (shipping address, payment)
   - Stripe integration (single payment method)
@@ -86,13 +87,11 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Email notifications (order confirmation)
   - Checkout UI pages (multi-step form)
   - Payment processing with error handling
-  
 - **Order Management** (10 SP)
   - Order history viewing
   - Order detail page
   - Order status tracking (basic)
   - User's order list UI
-  
 - **Basic Admin Panel** (5 SP)
   - Admin authentication and authorization
   - Product CRUD operations (basic)
@@ -122,6 +121,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Scope**:
 
 ### Sprint 4 (Weeks 7-8, 55 SP)
+
 - **Advanced Search & Filters** (25 SP)
   - Filter by category, price range, brand
   - Filter by technical specs (custom attributes)
@@ -129,14 +129,12 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Sort by price, popularity, rating, newest
   - Search result count and "no results" handling
   - Filter persistence (URL state)
-  
 - **Wishlist** (15 SP)
   - Wishlist domain model and API
   - Add/remove products from wishlist
   - Wishlist page UI
   - Move from wishlist to cart
   - Wishlist item count badge
-  
 - **Enhanced Responsive Design** (15 SP)
   - Tablet-optimized layouts
   - Mobile navigation improvements
@@ -145,6 +143,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Improved mobile forms and inputs
 
 ### Sprint 5 (Weeks 9-10, 55 SP)
+
 - **Product Reviews & Ratings** (30 SP)
   - Review domain model and API
   - Leave review with star rating and text
@@ -153,14 +152,12 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Review moderation flag (report inappropriate)
   - Average rating calculation and display
   - "Verified purchase" badge
-  
 - **Multiple Payment Options** (20 SP)
   - PayPal integration
   - Save payment methods for future use
   - Payment method selection UI
   - Saved cards management in profile
   - Payment processing error improvements
-  
 - **Performance Optimizations** (5 SP)
   - Redis caching for product catalog
   - Database query optimization
@@ -188,6 +185,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Scope**:
 
 ### Sprint 6 (Weeks 11-12, 50 SP)
+
 - **Admin Dashboard** (25 SP)
   - Sales analytics dashboard (revenue, orders, top products)
   - Product management (advanced CRUD with images)
@@ -195,7 +193,6 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - User management (view users, manage roles)
   - Order management (view details, update status, process refunds)
   - Dashboard UI with charts and metrics
-  
 - **Promotions & Discounts** (25 SP)
   - Discount code system (percentage, fixed amount, free shipping)
   - Discount code creation and management UI
@@ -205,6 +202,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Bulk discounts (buy X, get Y% off)
 
 ### Sprint 7 (Weeks 13-14, 45 SP)
+
 - **Blog Platform** (20 SP)
   - Blog post domain model and API
   - Create/edit/publish blog posts (admin)
@@ -212,14 +210,12 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Blog post detail page with rich text
   - Categories and tags for posts
   - SEO-friendly URLs (slugs)
-  
 - **Advanced Order Management** (15 SP)
   - Shipment tracking integration (tracking number, carrier)
   - Order status updates (processing, shipped, delivered)
   - Returns and cancellations workflow
   - Refund processing (admin)
   - Email notifications for status changes
-  
 - **Analytics & Monitoring** (10 SP)
   - Google Analytics 4 integration
   - Event tracking (add to cart, purchase, search)
@@ -247,6 +243,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Scope**:
 
 ### Sprint 8 (Weeks 15-16, 50 SP)
+
 - **Personalization Engine** (20 SP)
   - User browsing history tracking
   - "Recently viewed" products
@@ -254,14 +251,12 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - "Customers also bought" (rule-based recommendations)
   - Personalized homepage product sections
   - Email recommendations (integration with email service)
-  
 - **Live Chat Support** (15 SP)
   - Live chat integration (Crisp or Intercom)
   - Chat widget on all pages
   - Admin chat management interface
   - Chat history and transcripts
   - Automated responses for common questions
-  
 - **SEO Optimization** (15 SP)
   - Meta tags (title, description, Open Graph)
   - Structured data (Product, Review, BreadcrumbList)
@@ -271,6 +266,7 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Performance optimization for Core Web Vitals
 
 ### Sprint 9 (Weeks 17-18, 45 SP)
+
 - **Monitoring & Observability** (20 SP)
   - Prometheus metrics collection
   - Grafana dashboards (API latency, error rates, throughput)
@@ -278,13 +274,11 @@ This document outlines the delivery plan for the Electronics Store for Programme
   - Application logging (structured logs, ELK stack)
   - Alerting for critical issues (Slack/email)
   - Health check endpoints
-  
 - **Dark Mode** (10 SP)
   - Dark theme CSS variables
   - Theme toggle UI component
   - Theme preference persistence (localStorage)
   - Dark mode for all pages and components
-  
 - **Accessibility Enhancements** (15 SP)
   - WCAG 2.1 AA compliance audit
   - Keyboard navigation improvements
@@ -311,32 +305,32 @@ This document outlines the delivery plan for the Electronics Store for Programme
 
 ## Phase Comparison Table
 
-| Aspect               | MVP (6 weeks)         | Phase 1 (4 weeks)        | Phase 2 (4 weeks)        | Phase 3 (4-5 weeks)      |
-| -------------------- | --------------------- | ------------------------ | ------------------------ | ------------------------ |
-| **Duration**         | 6 weeks (3 sprints)   | 4 weeks (2 sprints)      | 4 weeks (2 sprints)      | 4-5 weeks (2 sprints)    |
-| **Story Points**     | 120 SP                | 110 SP                   | 95 SP                    | 95 SP                    |
-| **User Value**       | Core e-commerce       | Enhanced shopping UX     | Admin tools & content    | Personalization & polish |
-| **Technical Complexity** | Medium            | Medium                   | Medium-High              | High                     |
-| **Testing Effort**   | High (new features)   | Medium (enhancements)    | Medium (integrations)    | High (ML, monitoring)    |
-| **Risk Level**       | Medium (payment)      | Low                      | Medium (admin security)  | Medium (3rd party integrations) |
-| **Dependencies**     | None (foundational)   | MVP required             | MVP + Phase 1 required   | MVP + Phases 1-2 required |
+| Aspect                   | MVP (6 weeks)       | Phase 1 (4 weeks)     | Phase 2 (4 weeks)       | Phase 3 (4-5 weeks)             |
+| ------------------------ | ------------------- | --------------------- | ----------------------- | ------------------------------- |
+| **Duration**             | 6 weeks (3 sprints) | 4 weeks (2 sprints)   | 4 weeks (2 sprints)     | 4-5 weeks (2 sprints)           |
+| **Story Points**         | 120 SP              | 110 SP                | 95 SP                   | 95 SP                           |
+| **User Value**           | Core e-commerce     | Enhanced shopping UX  | Admin tools & content   | Personalization & polish        |
+| **Technical Complexity** | Medium              | Medium                | Medium-High             | High                            |
+| **Testing Effort**       | High (new features) | Medium (enhancements) | Medium (integrations)   | High (ML, monitoring)           |
+| **Risk Level**           | Medium (payment)    | Low                   | Medium (admin security) | Medium (3rd party integrations) |
+| **Dependencies**         | None (foundational) | MVP required          | MVP + Phase 1 required  | MVP + Phases 1-2 required       |
 
 ---
 
 ## Cumulative Timeline
 
-| Milestone | Start Week | End Week | Cumulative Weeks | Cumulative SP |
-|-----------|------------|----------|------------------|---------------|
-| **Pre-MVP Design** | Week -2 | Week 0 | 2 weeks | 16 SP |
-| **MVP Sprint 1** | Week 1 | Week 2 | 4 weeks | 56 SP (16 + 40) |
-| **MVP Sprint 2** | Week 3 | Week 4 | 6 weeks | 96 SP |
-| **MVP Sprint 3** | Week 5 | Week 6 | 8 weeks | 136 SP |
-| **Phase 1 Sprint 4** | Week 7 | Week 8 | 10 weeks | 191 SP |
-| **Phase 1 Sprint 5** | Week 9 | Week 10 | 12 weeks | 246 SP |
-| **Phase 2 Sprint 6** | Week 11 | Week 12 | 14 weeks | 296 SP |
-| **Phase 2 Sprint 7** | Week 13 | Week 14 | 16 weeks | 341 SP |
-| **Phase 3 Sprint 8** | Week 15 | Week 16 | 18 weeks | 391 SP |
-| **Phase 3 Sprint 9** | Week 17 | Week 18 | 20 weeks | 436 SP |
+| Milestone            | Start Week | End Week | Cumulative Weeks | Cumulative SP   |
+| -------------------- | ---------- | -------- | ---------------- | --------------- |
+| **Pre-MVP Design**   | Week -2    | Week 0   | 2 weeks          | 16 SP           |
+| **MVP Sprint 1**     | Week 1     | Week 2   | 4 weeks          | 56 SP (16 + 40) |
+| **MVP Sprint 2**     | Week 3     | Week 4   | 6 weeks          | 96 SP           |
+| **MVP Sprint 3**     | Week 5     | Week 6   | 8 weeks          | 136 SP          |
+| **Phase 1 Sprint 4** | Week 7     | Week 8   | 10 weeks         | 191 SP          |
+| **Phase 1 Sprint 5** | Week 9     | Week 10  | 12 weeks         | 246 SP          |
+| **Phase 2 Sprint 6** | Week 11    | Week 12  | 14 weeks         | 296 SP          |
+| **Phase 2 Sprint 7** | Week 13    | Week 14  | 16 weeks         | 341 SP          |
+| **Phase 3 Sprint 8** | Week 15    | Week 16  | 18 weeks         | 391 SP          |
+| **Phase 3 Sprint 9** | Week 17    | Week 18  | 20 weeks         | 436 SP          |
 
 **Total Project Duration**: 20 weeks (including 2-week pre-MVP design)  
 **Total Effort**: 436 story points
@@ -352,12 +346,14 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Target Audience**: 20-50 developers from invite-only beta program
 
 **Success Metrics**:
+
 - 80%+ completion rate for user flows (registration → checkout)
 - < 5% payment failure rate
 - Positive feedback (4.0+ rating) from beta testers
 - No critical bugs blocking core flows
 
 **Post-Release Activities**:
+
 - Gather user feedback via surveys and interviews
 - Monitor analytics for drop-off points
 - Fix critical bugs and usability issues
@@ -372,12 +368,14 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Target Audience**: Broader developer community (Reddit, Hacker News, Dev.to)
 
 **Marketing Activities**:
+
 - Launch announcement on developer forums
 - Product Hunt launch
 - Technical blog posts on architecture and tech stack
 - Social media campaign
 
 **Success Metrics**:
+
 - 100+ new user registrations in first week
 - 50+ orders in first month
 - 3%+ conversion rate
@@ -392,12 +390,14 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Focus**: Content marketing and promotions
 
 **Marketing Activities**:
+
 - SEO-optimized blog posts (2-3 per week)
 - First promotional campaign (discount codes)
 - Email marketing to existing users
 - Developer community engagement
 
 **Success Metrics**:
+
 - 500+ monthly active users
 - 1,000+ monthly blog visitors
 - 30%+ repeat customer rate
@@ -412,12 +412,14 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Focus**: Personalization and user experience polish
 
 **Marketing Activities**:
+
 - Feature announcement (personalized recommendations, dark mode)
 - Case studies from early customers
 - Developer testimonials and reviews
 - Partnerships with developer influencers
 
 **Success Metrics**:
+
 - 2,000+ monthly active users
 - 5%+ conversion rate
 - $25,000+ monthly revenue
@@ -446,8 +448,8 @@ This document outlines the delivery plan for the Electronics Store for Programme
 
 1. **Payment Integration Issues**
    - **Mitigation**: Extensive testing with Stripe test mode; fallback to manual payment if needed
-   
 2. **Timeline Slippage**
+
    - **Mitigation**: Buffer time built into estimates; prioritize must-have features; defer nice-to-haves
 
 3. **Low Beta Adoption**
@@ -457,8 +459,8 @@ This document outlines the delivery plan for the Electronics Store for Programme
 
 1. **Feature Creep**
    - **Mitigation**: Strict scope management; defer non-essential features to next phase
-   
 2. **Third-Party Service Issues**
+
    - **Mitigation**: Choose reliable services with good documentation; have alternatives identified
 
 3. **Performance Degradation**
@@ -501,12 +503,14 @@ This document outlines the delivery plan for the Electronics Store for Programme
 **Assumed Team Velocity**: 40 story points per 2-week sprint
 
 **Factors Affecting Velocity**:
+
 - Team experience with tech stack (FastAPI, React, Redux)
 - Complexity of integrations (Stripe, PayPal, chat)
 - Testing overhead (high coverage targets)
 - Code review and quality processes
 
 **Velocity Monitoring**:
+
 - Track actual vs. estimated story points after each sprint
 - Adjust future estimates if velocity differs significantly
 - If velocity drops below 30 SP/sprint, re-evaluate scope or extend timeline

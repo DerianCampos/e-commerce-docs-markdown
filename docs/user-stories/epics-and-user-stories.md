@@ -519,7 +519,6 @@ Shopping cart functionality for adding and managing products before checkout.
 
 ---
 
-
 ## Epic 4: Wishlist
 
 **Priority**: Phase 1  
@@ -1391,49 +1390,49 @@ Live chat support for customer inquiries.
 
 ### MVP (6 weeks, 120 SP)
 
-| Epic | Stories | Story Points |
-|------|---------|--------------|
-| Epic 1: User Management | 1.1, 1.2, 1.3, 1.4 | 18 SP |
-| Epic 2: Product Catalog | 2.1, 2.2, 2.3, 2.4 | 22 SP |
-| Epic 3: Shopping Cart | 3.1, 3.2 | 20 SP |
-| Epic 5: Checkout & Payment | 5.1, 5.2, 5.3 | 25 SP |
-| Epic 6: Order Management | 6.1, 6.2 | 10 SP |
-| Epic 8: Admin Dashboard | 8.1 | 5 SP (basic) |
-| **Total MVP** | **15 stories** | **120 SP** |
+| Epic                       | Stories            | Story Points |
+| -------------------------- | ------------------ | ------------ |
+| Epic 1: User Management    | 1.1, 1.2, 1.3, 1.4 | 18 SP        |
+| Epic 2: Product Catalog    | 2.1, 2.2, 2.3, 2.4 | 22 SP        |
+| Epic 3: Shopping Cart      | 3.1, 3.2           | 20 SP        |
+| Epic 5: Checkout & Payment | 5.1, 5.2, 5.3      | 25 SP        |
+| Epic 6: Order Management   | 6.1, 6.2           | 10 SP        |
+| Epic 8: Admin Dashboard    | 8.1                | 5 SP (basic) |
+| **Total MVP**              | **15 stories**     | **120 SP**   |
 
 ### Phase 1 (4 weeks, 110 SP)
 
-| Epic | Stories | Story Points |
-|------|---------|--------------|
-| Epic 2: Product Catalog | 2.5, 2.6 | 31 SP |
-| Epic 4: Wishlist | 4.1, 4.2 | 18 SP |
-| Epic 5: Checkout & Payment | 5.4 (PayPal) | 12 SP |
-| Epic 7: Product Reviews | 7.1, 7.2 | 26 SP |
-| Performance & Optimization | Various | 5 SP |
-| Enhanced Responsive Design | Various | 18 SP |
-| **Total Phase 1** | **10 stories** | **110 SP** |
+| Epic                       | Stories        | Story Points |
+| -------------------------- | -------------- | ------------ |
+| Epic 2: Product Catalog    | 2.5, 2.6       | 31 SP        |
+| Epic 4: Wishlist           | 4.1, 4.2       | 18 SP        |
+| Epic 5: Checkout & Payment | 5.4 (PayPal)   | 12 SP        |
+| Epic 7: Product Reviews    | 7.1, 7.2       | 26 SP        |
+| Performance & Optimization | Various        | 5 SP         |
+| Enhanced Responsive Design | Various        | 18 SP        |
+| **Total Phase 1**          | **10 stories** | **110 SP**   |
 
 ### Phase 2 (4 weeks, 95 SP)
 
-| Epic | Stories | Story Points |
-|------|---------|--------------|
-| Epic 6: Order Management | 6.3, 6.4 | 16 SP |
-| Epic 8: Admin Dashboard | 8.2, 8.3, 8.4 | 42 SP |
-| Epic 9: Promotions | 9.1, 9.2 | 25 SP |
-| Epic 10: Blog & Content | 10.1, 10.2 | 21 SP |
-| **Total Phase 2** | **9 stories** | **104 SP** (95 SP with optimization) |
+| Epic                     | Stories       | Story Points                         |
+| ------------------------ | ------------- | ------------------------------------ |
+| Epic 6: Order Management | 6.3, 6.4      | 16 SP                                |
+| Epic 8: Admin Dashboard  | 8.2, 8.3, 8.4 | 42 SP                                |
+| Epic 9: Promotions       | 9.1, 9.2      | 25 SP                                |
+| Epic 10: Blog & Content  | 10.1, 10.2    | 21 SP                                |
+| **Total Phase 2**        | **9 stories** | **104 SP** (95 SP with optimization) |
 
 ### Phase 3 (4-5 weeks, 95 SP)
 
-| Epic | Stories | Story Points |
-|------|---------|--------------|
-| Epic 11: Personalization | 11.1, 11.2 | 19 SP |
-| Epic 12: Customer Support | 12.1, 12.2 | 15 SP |
-| Monitoring & Observability | Various | 20 SP |
-| SEO Optimization | Various | 15 SP |
-| Dark Mode | Various | 10 SP |
-| Accessibility | Various | 16 SP |
-| **Total Phase 3** | **8 stories** | **95 SP** |
+| Epic                       | Stories       | Story Points |
+| -------------------------- | ------------- | ------------ |
+| Epic 11: Personalization   | 11.1, 11.2    | 19 SP        |
+| Epic 12: Customer Support  | 12.1, 12.2    | 15 SP        |
+| Monitoring & Observability | Various       | 20 SP        |
+| SEO Optimization           | Various       | 15 SP        |
+| Dark Mode                  | Various       | 10 SP        |
+| Accessibility              | Various       | 16 SP        |
+| **Total Phase 3**          | **8 stories** | **95 SP**    |
 
 ---
 

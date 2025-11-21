@@ -24,7 +24,7 @@ Alex works remotely 3 days a week and commutes to the office 2 days. He's passio
 ### Goals & Motivations
 
 - **Primary Goal**: Build an ergonomic, efficient home office with quality electronics
-- **Secondary Goals**: 
+- **Secondary Goals**:
   - Find reliable hardware for side projects (home automation, IoT)
   - Stay current with new development tools and gadgets
   - Minimize time spent researching and comparing products
@@ -252,12 +252,12 @@ Sarah is an admin user, not a customer. Her "usage behavior" focuses on admin da
 
 ## Persona Summary Table
 
-| Persona | Age | Occupation | Primary Goal | Key Need | Tech Level |
-|---------|-----|------------|--------------|----------|------------|
-| **Alex Chen** | 32 | Senior Developer | Optimize home office & side projects | Technical depth, curated selection | Expert |
-| **Maya Rodriguez** | 21 | CS Student | Learn hardware programming | Affordable starter kits, guidance | Intermediate |
-| **David Kim** | 38 | Engineering Manager | Advanced maker projects | Specialized components, datasheets | Expert |
-| **Sarah Thompson** | 35 | Store Manager (Admin) | Efficient store operations | Intuitive admin tools, analytics | Intermediate |
+| Persona            | Age | Occupation            | Primary Goal                         | Key Need                           | Tech Level   |
+| ------------------ | --- | --------------------- | ------------------------------------ | ---------------------------------- | ------------ |
+| **Alex Chen**      | 32  | Senior Developer      | Optimize home office & side projects | Technical depth, curated selection | Expert       |
+| **Maya Rodriguez** | 21  | CS Student            | Learn hardware programming           | Affordable starter kits, guidance  | Intermediate |
+| **David Kim**      | 38  | Engineering Manager   | Advanced maker projects              | Specialized components, datasheets | Expert       |
+| **Sarah Thompson** | 35  | Store Manager (Admin) | Efficient store operations           | Intuitive admin tools, analytics   | Intermediate |
 
 ---
 

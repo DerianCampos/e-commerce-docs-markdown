@@ -13,6 +13,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: This affects warehouse/storage costs, shipping times, and profit margins.
 
 **Options**:
+
 - **Drop-shipping**: Lower upfront costs, no inventory risk, but less control over shipping times
 - **Own Inventory**: Better control and faster shipping, but requires warehouse and upfront investment
 - **Hybrid**: Stock popular items, drop-ship specialized/long-tail products
@@ -30,6 +31,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Executive summary mentions "200+ products across 10+ categories" but this may be ambitious for MVP.
 
 **Options**:
+
 - **50-100 products** (5-7 categories): Smaller, curated selection; faster to launch
 - **200+ products** (10+ categories): More comprehensive, but delays launch
 - **Phased approach**: Launch with 50-100, add 20-30 new products monthly
@@ -47,6 +49,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Affects payment processing, shipping, tax calculation, and legal compliance.
 
 **Options**:
+
 - **US only**: Simplest to start, single currency, well-known shipping carriers
 - **US + Canada**: Slightly more complex, but accessible North American market
 - **US + EU**: Broader market, but complex tax/VAT, multiple currencies
@@ -64,6 +67,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Executive summary mentions B2B as "future" segment, but initial interest may warrant earlier support.
 
 **Options**:
+
 - **B2C only in MVP**: Focus on individual customers, add B2B in Phase 2 or later
 - **Basic B2B support in MVP**: Allow bulk purchases with volume discounts
 - **Full B2B in Phase 1**: Corporate accounts, invoicing, purchase orders
@@ -83,6 +87,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Documentation suggests AWS, but team experience and costs vary.
 
 **Options**:
+
 - **AWS**: Most comprehensive services, higher cost, steeper learning curve
 - **DigitalOcean**: Simpler, cost-effective, but fewer managed services
 - **Google Cloud / Azure**: Strong alternatives, depend on team familiarity
@@ -102,6 +107,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Need reliable, affordable email delivery for MVP.
 
 **Options**:
+
 - **SendGrid**: Popular, generous free tier (100 emails/day), easy integration
 - **AWS SES**: Very affordable ($0.10/1000 emails), but requires AWS setup
 - **Mailgun**: Good for developers, similar pricing to SendGrid
@@ -122,6 +128,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Product images are critical for e-commerce; need fast loading and optimization.
 
 **Options**:
+
 - **AWS S3 + CloudFront CDN**: Scalable, reliable, integrates with AWS infrastructure
 - **Cloudinary**: Image optimization, transformations, CDN included; higher cost but easier
 - **Self-hosted**: Cheapest but requires more maintenance and CDN configuration
@@ -141,6 +148,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: MVP needs keyword search; Phase 1 adds advanced filtering.
 
 **Options**:
+
 - **PostgreSQL full-text search**: Simple, no extra infrastructure, sufficient for MVP
 - **Elasticsearch**: Powerful, self-hosted, requires DevOps expertise
 - **Algolia**: Managed service, excellent UX, but expensive ($1/1000 searches after free tier)
@@ -160,6 +168,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Affects SEO, initial load time, and infrastructure complexity.
 
 **Options**:
+
 - **Static Site (SPA)**: Deploy to S3/CloudFront, simple, fast, but SEO challenges
 - **SSR with Next.js**: Better SEO, slower deployment, requires Node server
 - **SSG (Static Site Generation)**: Pre-render product pages, best of both worlds
@@ -181,6 +190,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Guest checkout improves conversion but complicates order tracking and follow-up.
 
 **Options**:
+
 - **Require registration**: Simpler to implement, builds user database
 - **Guest checkout with optional registration**: Better conversion, more complex
 - **Guest checkout only (no registration)**: Simplest for users, limits features
@@ -200,6 +210,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Moderation ensures quality but adds operational overhead.
 
 **Options**:
+
 - **Auto-publish all reviews**: Simple, immediate feedback, risk of spam/abuse
 - **Manual moderation**: Quality control, but delays and requires staff
 - **Auto-publish with spam filters**: Balance automation with quality
@@ -217,6 +228,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Public wishlists enable gift-giving and social sharing but raise privacy concerns.
 
 **Options**:
+
 - **Private only**: Simpler, no privacy concerns
 - **Public with opt-in**: User controls visibility
 - **Always public**: Maximum viral potential, privacy risks
@@ -236,6 +248,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Executive summary mentions mobile apps as "additional feature" but responsive web may suffice initially.
 
 **Options**:
+
 - **No mobile app**: Responsive web only, reassess after MVP
 - **Phase 3**: After web platform is stable and proven
 - **Post-Phase 3**: Once we have sufficient user base to justify investment
@@ -257,6 +270,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Required for GDPR compliance and PCI DSS if handling payment data.
 
 **Options**:
+
 - **Use templates**: Faster, cheaper, may miss specifics
 - **Legal review**: More expensive, ensures compliance
 - **Hybrid**: Templates reviewed by legal counsel
@@ -276,6 +290,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: If targeting EU users, GDPR compliance is mandatory.
 
 **Options**:
+
 - **US only, no GDPR**: Simplest, but limits market
 - **Basic GDPR compliance**: Cookie consent, privacy policy, data export/deletion
 - **Full GDPR compliance**: DPO, data processing agreements, comprehensive audit
@@ -295,6 +310,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Documentation mentions WCAG 2.1 AA compliance, but full compliance is time-intensive.
 
 **Options**:
+
 - **WCAG 2.1 A** (minimum): Basic accessibility
 - **WCAG 2.1 AA** (recommended): Balanced accessibility, legal safe harbor
 - **WCAG 2.1 AAA** (optimal): Highest level, very time-intensive
@@ -316,6 +332,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Need real-time customer support but many options exist.
 
 **Options**:
+
 - **Intercom**: Comprehensive, expensive ($74/mo+), includes chatbot
 - **Zendesk Chat**: Mid-range pricing, integrates with Zendesk Support
 - **Crisp**: Affordable ($25/mo), developer-friendly
@@ -334,6 +351,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Need user behavior tracking, conversion funnels, and product analytics.
 
 **Options**:
+
 - **Google Analytics 4**: Free, comprehensive, privacy concerns
 - **Mixpanel**: Product analytics focus, free tier (1000 MTU)
 - **Plausible/Fathom**: Privacy-focused, paid ($9-14/mo)
@@ -354,6 +372,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Phase 3 includes ML-based personalization and recommendations.
 
 **Options**:
+
 - **In-house ML**: Full control, requires ML expertise, time-intensive
 - **Recombee/Algolia Recommend**: Managed services, $50-100/mo
 - **Simple rule-based**: "Customers also bought", "Recently viewed", no ML
@@ -375,6 +394,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Need response to order issues, product questions, technical support.
 
 **Options**:
+
 - **Admin/Store Manager (Sarah persona)**: Handles all support initially
 - **Outsourced support**: Third-party support staff
 - **Chatbot + escalation**: Automate common questions, human for complex issues
@@ -394,6 +414,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Affects customer satisfaction, fraud risk, and operational complexity.
 
 **Options**:
+
 - **30-day returns, full refund**: Standard for e-commerce, higher fraud risk
 - **14-day returns, restocking fee**: Reduces abuse, may hurt satisfaction
 - **No returns on opened electronics**: Lower risk, worse UX
@@ -411,6 +432,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Context**: Shipping costs affect conversion rate and profitability.
 
 **Options**:
+
 - **Free shipping (built into price)**: Higher conversion, but margins absorb cost
 - **Flat rate ($5-10)**: Simple, predictable, fair for most orders
 - **Calculated by weight/distance**: Most accurate, complex UX
@@ -431,6 +453,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Assumption**: Developers actively seek curated electronics platforms and will adopt our store
 
 **Validation Needed**:
+
 - Survey developer communities (Reddit r/programming, Hacker News)
 - Beta program with 20-50 developers for feedback
 - Monitor signup rate and engagement in first month
@@ -444,6 +467,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Assumption**: Technical depth and developer focus differentiate us enough from Amazon, Adafruit, SparkFun
 
 **Validation Needed**:
+
 - User interviews comparing our UX to competitors
 - A/B test product page formats (technical specs vs consumer descriptions)
 - Track repeat purchase rate and user feedback
@@ -457,6 +481,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Assumption**: We can price competitively while maintaining 30-40% gross margins
 
 **Validation Needed**:
+
 - Supplier negotiations and actual landed costs
 - Competitive price analysis for key product categories
 - Margin analysis after first 100 orders
@@ -470,6 +495,7 @@ This document tracks unresolved questions, assumptions that need validation, and
 **Assumption**: Team can deliver Clean Architecture + DDD + FastAPI + React within planned timeline
 
 **Validation Needed**:
+
 - Sprint 0 velocity estimation
 - Review after MVP Sprint 1
 - Adjust estimates if velocity is lower than 40 SP per 2-week sprint
@@ -480,32 +506,33 @@ This document tracks unresolved questions, assumptions that need validation, and
 
 ## Question Tracking
 
-| ID | Category | Priority | Decision By | Status |
-|----|----------|----------|-------------|--------|
-| Q1 | Business | High | Sprint 0 | 🟡 Open |
-| Q2 | Business | Medium | Sprint 0 | 🟡 Open |
-| Q3 | Business | Medium | Sprint 0 | 🟡 Open |
-| Q4 | Business | Low | Phase 1 | 🟡 Open |
-| T1 | Technical | High | Sprint 0 | 🟢 Recommend AWS |
-| T2 | Technical | Low | Sprint 1 | 🟢 Recommend SendGrid |
-| T3 | Technical | Medium | Sprint 0 | 🟢 Recommend S3+CloudFront |
-| T4 | Technical | Medium | Sprint 2 | 🟢 Recommend PostgreSQL |
-| T5 | Technical | Medium | Sprint 0 | 🟢 Recommend SPA |
-| U1 | UX | Medium | Sprint 1 | 🟢 Recommend required registration |
-| U2 | UX | Low | Phase 1 | 🟡 Open |
-| U3 | UX | Low | Phase 1 | 🟢 Recommend private |
-| U4 | UX | Low | Post-Phase 3 | 🟡 Open |
-| L1 | Legal | High | Pre-launch | 🟡 Open |
-| L2 | Legal | High | Sprint 0 | 🟢 Recommend US-only MVP |
-| L3 | Legal | Medium | Pre-MVP | 🟢 Recommend WCAG 2.1 AA incremental |
-| I1 | Integration | Low | Phase 3 | 🟡 Open |
-| I2 | Integration | Low | Sprint 2 | 🟢 Recommend GA4 |
-| I3 | Integration | Medium | Phase 3 | 🟢 Recommend rule-based |
-| O1 | Operations | Medium | Pre-launch | 🟡 Open |
-| O2 | Operations | Medium | Pre-launch | 🟡 Open |
-| O3 | Operations | High | Sprint 3 | 🟢 Recommend free over $50 |
+| ID  | Category    | Priority | Decision By  | Status                               |
+| --- | ----------- | -------- | ------------ | ------------------------------------ |
+| Q1  | Business    | High     | Sprint 0     | 🟡 Open                              |
+| Q2  | Business    | Medium   | Sprint 0     | 🟡 Open                              |
+| Q3  | Business    | Medium   | Sprint 0     | 🟡 Open                              |
+| Q4  | Business    | Low      | Phase 1      | 🟡 Open                              |
+| T1  | Technical   | High     | Sprint 0     | 🟢 Recommend AWS                     |
+| T2  | Technical   | Low      | Sprint 1     | 🟢 Recommend SendGrid                |
+| T3  | Technical   | Medium   | Sprint 0     | 🟢 Recommend S3+CloudFront           |
+| T4  | Technical   | Medium   | Sprint 2     | 🟢 Recommend PostgreSQL              |
+| T5  | Technical   | Medium   | Sprint 0     | 🟢 Recommend SPA                     |
+| U1  | UX          | Medium   | Sprint 1     | 🟢 Recommend required registration   |
+| U2  | UX          | Low      | Phase 1      | 🟡 Open                              |
+| U3  | UX          | Low      | Phase 1      | 🟢 Recommend private                 |
+| U4  | UX          | Low      | Post-Phase 3 | 🟡 Open                              |
+| L1  | Legal       | High     | Pre-launch   | 🟡 Open                              |
+| L2  | Legal       | High     | Sprint 0     | 🟢 Recommend US-only MVP             |
+| L3  | Legal       | Medium   | Pre-MVP      | 🟢 Recommend WCAG 2.1 AA incremental |
+| I1  | Integration | Low      | Phase 3      | 🟡 Open                              |
+| I2  | Integration | Low      | Sprint 2     | 🟢 Recommend GA4                     |
+| I3  | Integration | Medium   | Phase 3      | 🟢 Recommend rule-based              |
+| O1  | Operations  | Medium   | Pre-launch   | 🟡 Open                              |
+| O2  | Operations  | Medium   | Pre-launch   | 🟡 Open                              |
+| O3  | Operations  | High     | Sprint 3     | 🟢 Recommend free over $50           |
 
 **Status Legend**:
+
 - 🟢 Recommendation provided
 - 🟡 Open for discussion
 - 🔴 Blocking decision needed
